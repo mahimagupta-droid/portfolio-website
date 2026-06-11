@@ -1,0 +1,196 @@
+{
+  "profile": {
+    "name": "Mahima Gupta",
+    "shortName": "Mahima",
+    "tagline": "Building AI-powered products and full-stack systems that are fast, type-safe, and actually ship.",
+    "role": "Full-Stack Developer",
+    "specialization": "Full-Stack · AI Integration · Frontend Engineering",
+    "location": "Delhi, India",
+    "yearsOfExperience": 1,
+    "bio": [
+      "I'm a second-year Information Technology student at GGSIPU building full-stack products at the intersection of AI and developer tooling. I care about correctness, clean architecture, and shipping things that work in production — not just in demos.",
+      "My work spans AI-powered learning platforms, personal finance systems, and productivity apps — all built with Next.js, TypeScript, PostgreSQL, and MongoDB. I focus on strong data modeling, type-safe pipelines, and UIs that feel fast.",
+      "Currently interning as a Web Development Intern at TechTattva and contributing as a Tech Team Member at Namespace Community. Open to internship opportunities where I can go deep on systems and ship real product."
+    ],
+    "avatar": "",
+    "email": "guptamahima583@gmail.com",
+    "phone": "+91 9971575445",
+    "resumeUrl": "https://drive.google.com/file/d/1rj_UDhW3TUNYITMPLKgk0Y5iYbibtgE2/view?usp=sharing",
+    "social": {
+      "github": "https://github.com/mahimagupta-droid",
+      "linkedin": "https://linkedin.com/in/guptamahima",
+      "twitter": ""
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Languages",
+        "skills": [
+          "TypeScript",
+          "JavaScript",
+          "C++"
+        ]
+      },
+      {
+        "name": "Frontend",
+        "skills": [
+          "React.js",
+          "Next.js 16",
+          "Tailwind CSS",
+          "Framer Motion",
+          "Shadcn/ui",
+          "Radix UI",
+          "Recharts",
+          "Chart.js"
+        ]
+      },
+      {
+        "name": "Backend",
+        "skills": [
+          "Next.js Server Actions",
+          "REST APIs",
+          "Zod",
+          "React Hook Form",
+          "Axios",
+          "Zustand"
+        ]
+      },
+      {
+        "name": "Databases",
+        "skills": [
+          "PostgreSQL",
+          "Prisma ORM",
+          "Neon",
+          "MongoDB",
+          "Mongoose"
+        ]
+      },
+      {
+        "name": "Auth & Infra",
+        "skills": [
+          "Clerk",
+          "Svix",
+          "Middleware Route Protection",
+          "Vercel",
+          "Git",
+          "GitHub"
+        ]
+      },
+      {
+        "name": "AI & APIs",
+        "skills": [
+          "Google Gemini API",
+          "gemini-2.5-flash"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "TechTattva",
+      "role": "Web Development Intern",
+      "period": "April 2026 — Present",
+      "location": "Delhi, India",
+      "summary": "Building and maintaining web interfaces for community tech events. Working in a cross-functional team on feature development, responsive UI components, and bug fixes.",
+      "highlights": [
+        "Developed responsive web interfaces for community tech events using React.js and Tailwind CSS",
+        "Collaborated with a cross-functional team on feature development and UI component architecture",
+        "Contributed to bug fixes and iterative improvements across the production codebase"
+      ],
+      "technologies": [
+        "React.js",
+        "Tailwind CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "Namespace Community",
+      "role": "Tech Team Member",
+      "period": "March 2025 — Present",
+      "location": "Delhi, India",
+      "summary": "Contributing to technical initiatives and community-driven projects within a developer-focused student community. Active in collaborative development workflows and code reviews.",
+      "highlights": [
+        "Contributed to technical initiatives and community-driven developer projects",
+        "Participated in collaborative development workflows and team-based problem solving",
+        "Engaged in code reviews and cross-team coordination on open projects"
+      ],
+      "technologies": [
+        "Git",
+        "GitHub",
+        "Collaborative Dev"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "title": "BrainLoop",
+      "subtitle": "AI-Powered Adaptive Learning Platform",
+      "description": "An adaptive learning platform that uses Google Gemini API to generate personalized MCQ quizzes targeting concepts below a 70% accuracy threshold. Includes a weak-area detection engine, an interactive AI tutor for real-time follow-up Q&A, and Recharts dashboards for per-topic accuracy and session history.",
+      "highlights": true,
+      "image": "",
+      "liveUrl": "https://brainloop-ten.vercel.app/",
+      "githubUrl": "https://github.com/mahimagupta-droid/brainloop",
+      "tags": [
+        "Next.js 16",
+        "TypeScript",
+        "MongoDB",
+        "Gemini API",
+        "Clerk",
+        "Recharts"
+      ],
+      "year": "2026"
+    },
+    {
+      "id": "proj-2",
+      "title": "FinSight AI",
+      "subtitle": "Full-Stack Personal Finance Platform",
+      "description": "A personal finance platform with expense and income tracking, dynamic monthly budget management, and real-time category-wise spending analytics. Built with a relational PostgreSQL schema via Prisma, type-safe Zod pipelines, and Clerk auth with Svix webhook handlers for automated user sync.",
+      "highlights": true,
+      "image": "",
+      "liveUrl": "https://finsight-ai-inky.vercel.app/",
+      "githubUrl": "https://github.com/mahimagupta-droid/finsight-ai",
+      "tags": [
+        "Next.js 16",
+        "TypeScript",
+        "PostgreSQL",
+        "Prisma",
+        "Clerk",
+        "Chart.js"
+      ],
+      "year": "2026"
+    },
+    {
+      "id": "proj-3",
+      "title": "DayFrame",
+      "subtitle": "Full-Stack Productivity & Goal Management App",
+      "description": "A productivity platform for task and goal management featuring milestone tracking with dynamic progress bars, deadline scheduling, and priority-based task categorization. Includes a real-time analytics dashboard calculating completion rates and milestone progress from live MongoDB data.",
+      "highlights": false,
+      "image": "",
+      "liveUrl": "https://dayframe-jade.vercel.app/",
+      "githubUrl": "https://github.com/mahimagupta-droid/dayframe",
+      "tags": [
+        "Next.js 16",
+        "TypeScript",
+        "MongoDB",
+        "Clerk",
+        "Framer Motion",
+        "Svix"
+      ],
+      "year": "2026"
+    }
+  ],
+  "education": [
+    {
+      "id": "edu-1",
+      "institution": "Guru Gobind Singh Indraprastha University",
+      "degree": "B.Tech",
+      "field": "Information Technology",
+      "period": "Aug 2024 — May 2028",
+      "honors": "CGPA: 8.7 / 10"
+    }
+  ]
+}
