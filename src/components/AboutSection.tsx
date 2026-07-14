@@ -15,7 +15,6 @@ export default function AboutSection() {
 
   return (
     <section id="about" className="py-28 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto">
-      {/* Section label */}
       <motion.p
         className="text-xs uppercase tracking-[0.2em] text-neutral-500 font-mono mb-6"
         initial={{ opacity: 0 }}
@@ -25,9 +24,7 @@ export default function AboutSection() {
       >
         About
       </motion.p>
-
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.15fr] gap-16 lg:gap-24 items-start">
-        {/* Left — Headline */}
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -42,8 +39,6 @@ export default function AboutSection() {
             <br />
             that matters.
           </h2>
-
-          {/* Skills grid */}
           <div id="skills" className="mt-12 space-y-6">
             {skills.categories.map((cat, i) => (
               <motion.div
@@ -71,8 +66,6 @@ export default function AboutSection() {
             ))}
           </div>
         </motion.div>
-
-        {/* Right — Bio */}
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -81,7 +74,6 @@ export default function AboutSection() {
           variants={fadeUp}
           className="space-y-6"
         >
-          {/* Bio paragraphs */}
           {profile.bio.map((paragraph, i) => (
             <motion.p
               key={i}
@@ -96,8 +88,6 @@ export default function AboutSection() {
               {paragraph}
             </motion.p>
           ))}
-
-          {/* Location pill */}
           <motion.div
             className="flex items-center gap-2 mt-4"
             initial="hidden"

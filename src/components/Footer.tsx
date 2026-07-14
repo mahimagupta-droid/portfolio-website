@@ -34,11 +34,8 @@ export default function Footer() {
 
   return (
     <footer className="border-t border-neutral-800 bg-neutral-950/60">
-      {/* Three-column content */}
       <div className="px-6 md:px-12 lg:px-24 max-w-7xl mx-auto py-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-16">
-
-          {/* Col 1 — Brand */}
           <div className="space-y-4">
             <h2
               className="hero-heading text-3xl md:text-4xl font-bold leading-tight"
@@ -52,8 +49,6 @@ export default function Footer() {
               <span>{profile.location}</span>
             </div>
           </div>
-
-          {/* Col 2 — Navigate */}
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-neutral-600 font-mono mb-5">
               Navigate
@@ -73,14 +68,10 @@ export default function Footer() {
               </ul>
             </nav>
           </div>
-
-          {/* Col 3 — Reach Out */}
           <div>
             <p className="text-xs uppercase tracking-[0.18em] text-neutral-600 font-mono mb-5">
               Reach Out
             </p>
-
-            {/* Email + copy */}
             <div className="flex items-center gap-2 mb-3">
               <a
                 href={`mailto:${profile.email}`}
@@ -100,8 +91,6 @@ export default function Footer() {
                 )}
               </button>
             </div>
-
-            {/* Phone */}
             {profile.phone && (
               <a
                 href={`tel:${profile.phone.replace(/\s/g, '')}`}
@@ -110,8 +99,6 @@ export default function Footer() {
                 {profile.phone}
               </a>
             )}
-
-            {/* Social links */}
             <div className="flex items-center gap-4 mt-2">
               {Object.entries(profile.social)
                 .filter(([key, val]) => key !== 'email' && val)
@@ -135,8 +122,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-
-      {/* Bottom strip */}
       <div className="border-t border-neutral-900 px-6 md:px-12 lg:px-24 max-w-7xl mx-auto py-6">
         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
           <p className="text-neutral-700 text-xs">
